@@ -1,0 +1,58 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>PILE</title>
+				<link rel="stylesheet" href="style2.css">
+				<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  				<script type="text/javascript" src="drag.js"></script>
+				<script type="text/javascript">
+				$(function () {
+					$(".testdiv").attr("id", "testdiv");
+				});
+				</script>
+	</head>
+
+<body>
+	
+	<div id="container">
+		<div id="header">
+			<p>PILE</p>
+		</div>
+		<div id="pileContainer">
+			
+			
+			<div class="testdiv" style="left: 283px; top: 211px;" onMouseDown="dragStart(event, 'testdiv')";>
+				<p>This is the second test div. It is an animated image post with this text description.</p>
+				<img src="images/mariowhatup.gif">
+				<div class="footer">
+					<p><span class="footerPoster">Posted by PosterDos</span><span class="footerDate"> at 06:45 p.m.</span></p>
+				</div>
+			</div>
+			
+			<div class="testdiv" style="left: 500px; top: 300px;" onMouseDown="dragStart(event, 'testdiv')";>
+				<p>This is the second test div. It is an animated image post with this text description.</p>
+				<img src="images/mariowhatup.gif">
+				<div class="footer">
+					<p><span class="footerPoster">Posted by PosterDos</span><span class="footerDate"> at 06:45 p.m.</span></p>
+				</div>
+			</div>
+
+			<div class="testdiv" style="left: 400px; top: 500px;" onMouseDown="dragStart(event, 'testdiv')";>
+					<p>This is the third test div. It is a link post with this text description.</p>
+					<a href="http://bit.ly/jF9dk7"><span class="pileLink">http://bit.ly/jF9dk7</span></a>
+					<img src="images/pinholeegg.jpg">
+					<div class="footer">
+						<p><span class="footerPoster">Posted by PosterTres</span><span class="footerDate"> at 12:19 p.m.</span></p>
+					</div>	
+			</div>
+
+		</div>
+	</div>
+			
+  
+</body>
+</html>
+
+
