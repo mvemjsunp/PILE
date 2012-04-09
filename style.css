@@ -126,10 +126,11 @@ a:active {
 }
 
 .dynDiv_resizeDiv_tl,.dynDiv_resizeDiv_tr,.dynDiv_resizeDiv_bl,.dynDiv_resizeDiv_br {
- width: 10px;
- height: 10px;
- background: #faa;
- border: 1px solid #000;
+ width: 6px;
+ height: 6px;
+ background: #ddd;
+ border: none;
+ filter: alpha(opacity:50);
  position: absolute;
 }
 
